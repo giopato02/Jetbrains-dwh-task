@@ -1,7 +1,7 @@
 INSERT INTO raw_subscriptions(sub_id, customer_id, plan_type, start_date, end_date, amount) VALUES
-('S_101', 'C001', 'Annual', '2025-01-15', '2024-01-15', 1200.00),
+('S_101', 'C001', 'Annual', '2024-01-15', '2025-01-15', 1200.00),
 ('S_102', 'C002', 'Monthly', '2025-03-10', NULL, 50.00),
-('S_103', 'C003', 'Monthly', '2025-06-01', '2023-08-01', 150.00);
+('S_103', 'C003', 'Monthly', '2024-06-01', '2025-08-01', 150.00);
 INSERT INTO raw_customers(customer_id, company_name, country, signup_date) VALUES
 ('C001', 'JetBrains', 'Germany', '2023-01-15'),
 ('C002', 'Microsoft', 'USA', '2024-10-10'),
